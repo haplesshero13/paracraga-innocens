@@ -12,6 +12,6 @@ class Moth < ActiveRecord::Base
   end
 
   def wing_color
-    wings : color ? "Invisible"
+    wings ? color : "Invisible"
   end
 end
